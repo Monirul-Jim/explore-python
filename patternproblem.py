@@ -7,5 +7,5 @@
 # big letter starts with 65
 for row in range(7):
     for col in range(row+1):
-        print(chr(97+row), end=" ")
+        print(chr(97), end=" ")
     print()
