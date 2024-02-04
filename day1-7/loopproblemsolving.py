@@ -30,10 +30,17 @@
 # else:
 #     print("Not armstrong number")
 # 3 reverse number
-a = int(input("enter the number : "))
+# a = int(input("enter the number : "))
+# reverse_number = 0
+# while a > 0:
+#     last_digit = a % 10
+#     reverse_number = reverse_number*10 + last_digit
+#     a //= 10
+# print(reverse_number)
+a = int(input("Enter a Number : "))
 reverse_number = 0
 while a > 0:
     last_digit = a % 10
-    reverse_number = reverse_number*10 + last_digit
+    reverse_number = reverse_number*10+last_digit
     a //= 10
 print(reverse_number)
